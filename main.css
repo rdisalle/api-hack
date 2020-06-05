@@ -1,14 +1,148 @@
 * {
     box-sizing: border-box;
   }
-  
-  .hidden {
-      display: none;
-  }
 
-  .box {
-      border: 1px black solid;
-      height: 150px;
-      width: 150px;
-      display: inline-block;
-  }
+body {
+  margin-top: 125px;
+  background: #91D7F2;
+  font-family: 'Lexend Tera', sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+header {
+    background: #F2955E;
+    height: 100px;
+    width: 100%;  
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #F2F0EB; 
+    border-bottom: 2px #F25041 solid;
+}
+
+li {
+  list-style-type: none;
+}
+
+.title {
+  margin: auto;
+  padding: 10px;
+}
+
+label {
+  font-size: 25px;
+}
+
+input {
+  font-family: 'Lexend Tera', sans-serif;
+  font-size: 12px;
+}
+
+#js-search-city {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#js-search-state {
+  margin-bottom: 25px;
+}
+
+.input_box {
+  height: 30px;
+  width: 265px;
+  background: #F2F0EB;
+}
+
+#click {
+  background-color: #F2955E;
+  width: 175px;
+  border: #F2F0EB 2px solid;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.general{
+  margin-top: 25px;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+#city_state {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+}
+
+.box {
+  border: 1px #F2F0EB solid;
+  height: 125px;
+  width: 275px;
+  margin-bottom: 20px;
+  background: #F25041;
+  text-align: center;
+}
+
+.textcolor {
+  color: #F2F0EB;
+}
+
+.boxfontsize {
+  font-size: 25px;
+}
+
+.smallfont {
+  font-size: 10px;
+}
+
+.infobox{
+  border: 2px solid #5196A6;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+.infohead {
+  font-size: 30px;
+}
+
+.infoname {
+  font-size: 17px;
+}
+
+.lists {
+  padding-left: 0;
+}
+
+.underline {
+  border-bottom: 3px solid #F25041;
+}
+
+footer {
+  background: #F2955E;
+  position: fixed;
+  height: 35px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-top: #F2F0EB 2px solid
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0;
+  margin-top: 7px;
+}
+
+.logo {
+  width: 20px;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}

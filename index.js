@@ -29,6 +29,11 @@ function hideLists(){
     $(".lists").hide();
 };
 
+//hide footer on submission
+function hideFooter(){
+    $("footer").hide();
+};
+
 //toggle section wiki
 $("#button-1").click(function(){
     $("#results-list-1").toggle(0);
@@ -104,10 +109,10 @@ function displayResultsTicketMaster(responseJson) {
     $('#results-list-4').empty();
         for (let i = 0; i < responseJson._embedded.events.length; i++) {
         $('#results-list-4').append(
-            `<li>
+            `<li class="underline">
             <p>${responseJson._embedded.events[i].name}</p>
             <p>${responseJson._embedded.events[i]._embedded.venues[0].name}</p>
-            <p><a href=${responseJson._embedded.events[i].url}>${responseJson._embedded.events[i].url}</a></p>
+            <p><a href=${responseJson._embedded.events[i].url}>Go to Event!</a></p>
             </li>`
             )};
             $('#results-4').removeClass('hidden');
@@ -191,10 +196,9 @@ function displayResultsNYTimes(responseJson) {
     $('#results-list-3').empty();
         for (let i = 0; i < responseJson.response.docs.length; i++) {
             $('#results-list-3').append(
-            `<li>
+            `<li class="underline">
             <p>${responseJson.response.docs[i].headline.main}</p>
-            <p><a href=${responseJson.response.docs[i].web_url}>${responseJson.response.docs[i].web_url}</a></p>
-            <footer>${responseJson.copyright}</footer>
+            <p><a href=${responseJson.response.docs[i].web_url}>Go to Article!</a></p>
             </li>`
             )};
             $('#results-3').removeClass('hidden');
@@ -232,7 +236,7 @@ function displayResultsWiki(responseJson) {
     const pageId = responseJson.query.pageids[0];
     $('#results-list-1').empty(); {
         $('#results-list-1').append( 
-            `<a href="https://en.wikipedia.org/wiki/${responseJson.query.pages[pageId].title}">https://en.wikipedia.org/wiki/${responseJson.query.pages[pageId].title}</a>`
+            `<a href="https://en.wikipedia.org/wiki/${responseJson.query.pages[pageId].title}">Go to Page!</a>`
         );
         $('#results-list-1').append(
             `<li>
@@ -264,6 +268,7 @@ function watchForm() {
         displayResultsCity(searchPlace);
         showClickBoxes();
         hideLists();
+        hideFooter();
     }); 
 }
 
