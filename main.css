@@ -32,6 +32,7 @@ li {
 
 label {
   font-size: 25px;
+  margin-top: 25px; 
 }
 
 input {
@@ -40,7 +41,7 @@ input {
 }
 
 #js-search-city {
-  margin-top: 25px;
+  margin-top: 25px; 
   margin-bottom: 25px;
 }
 
@@ -75,6 +76,7 @@ input {
   font-size: 25px;
   text-align: center;
   margin: 0;
+  width: 275px;
 }
 
 .box {
@@ -102,6 +104,7 @@ input {
   border: 2px solid #5196A6;
   margin-bottom: 50px;
   padding: 30px;
+  width: 275px;
 }
 
 .infohead {
