@@ -8,26 +8,26 @@ Technologies used: HTML/CSS/JavaScript/jQuery
 
 
 ![Mobile Photo 1]
-(https://github.com/rdisalle/api-hack/blob/master/Screen%20Shot%202020-06-08%20at%205.55.35%20PM.png)
+(Screen Shot 2020-06-08 at 5.55.35 PM.png)
 
-![Mobile Photo 1]
-(https://github.com/rdisalle/api-hack/blob/master/Screen%20Shot%202020-06-08%20at%206.30.59%20PM.png)
+![Mobile Photo 2]
+(Screen Shot 2020-06-08 at 6.30.59 PM.png)
 
-![Mobile Photo 1]
-(https://github.com/rdisalle/api-hack/blob/master/Screen%20Shot%202020-06-08%20at%206.31.15%20PM.png)
+![Mobile Photo 3]
+(Screen Shot 2020-06-08 at 6.31.15 PM.png)
 
-![Mobile Photo 1]
-(https://github.com/rdisalle/api-hack/blob/master/Screen%20Shot%202020-06-08%20at%206.31.24%20PM.png)
+![Mobile Photo 4]
+(Screen Shot 2020-06-08 at 6.31.24 PM.png)
 
-![Mobile Photo 1]
-(https://github.com/rdisalle/api-hack/blob/master/Screen%20Shot%202020-06-08%20at%206.31.57%20PM.png)
+![Full Photo 1]
+(hScreen Shot 2020-06-08 at 6.31.57 PM.png	)
 
-![Mobile Photo 1]
-(https://github.com/rdisalle/api-hack/blob/master/Screen%20Shot%202020-06-08%20at%206.32.18%20PM.png)
+![Full Photo 2]
+(Screen Shot 2020-06-08 at 6.32.18 PM.png)
 
-![Mobile Photo 1]
-(https://github.com/rdisalle/api-hack/blob/master/Screen%20Shot%202020-06-08%20at%206.32.26%20PM.png)
+![Full Photo 3]
+(Screen Shot 2020-06-08 at 6.32.26 PM.png)
 
-![Mobile Photo 1]
-(https://github.com/rdisalle/api-hack/blob/master/Screen%20Shot%202020-06-08%20at%206.32.38%20PM.png)
+![Full Photo 4]
+(Screen Shot 2020-06-08 at 6.32.38 PM.png)
 
