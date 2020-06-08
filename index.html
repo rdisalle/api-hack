@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Where Should I Move?</title>
+    <title>City Info</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="main.css">
@@ -11,17 +11,17 @@
 </head>
 <body>
     <header>
-        <h1 class="title">Should I Move To...?</h1>
+        <h1 class="title">City Info...</h1>
     </header>
         <section class="opening">
             <form id="js-form">
-                <label for="js-search-city">Please input a city and state code!</label>
+                <label for="js-search-city" class="firsttext">Please input a major city and state code!</label>
                 <input type="text" name="search-city" id="js-search-city" value="City" required class="highlight input_box">
                 <label for="js-search-state"></label>
                 <input type="text" name="search-state" id="js-search-state" value="State Code (i.e. GA)" required class="highlight input_box">
                 <input type="submit" value="Let's Go!" id="click">
             </form>
-            <p class="general">Once submitted, we will search your city and state to provide you valuable information to help you determine if you should move to a new city!</p>
+            <p class="general">Once submitted, we will search your city and state to provide you valuable information to help you find out more about a new city!</p>
         </section>
         
         <section id= "initial_feedback"> 
@@ -56,21 +56,21 @@
         <section id="results-1"  class ='hidden infobox'>
             <h1 class="infohead">General Info</h1>
             <h2 class="infoname">Wikipedia</h2>
-            <button type="button" id="button-1">v/ʌ</button>
+            <button type="button" id="button-1" class="buttonborder">'More Info'</button>
             <ul id="results-list-1" class="lists">
             </ul>
         </section>
         <section id="results-2"  class ='hidden infobox'>
             <h1 class="infohead">Weather</h1>
             <h2 class="infoname">Current Weather</h2>
-            <button type="button" id="button-2">v/ʌ</button>
+            <button type="button" id="button-2" class="buttonborder">'More Info'</button>
             <ul id="results-list-2" class="lists">
             </ul>
         </section>
         <section id="results-3"  class ='hidden infobox'>
             <h1 class="infohead">News</h1>
             <h2 class="infoname">NYTimes</h2>
-            <button type="button" id="button-3">v/ʌ</button>
+            <button type="button" id="button-3" class="buttonborder">'More Info'</button>
             <ul id="results-list-3" class="lists">
             </ul>
             <p class="smallfont">Copyright (c) 2020 The New York Times Company. All Rights Reserved.</p>
@@ -78,7 +78,7 @@
         <section id="results-4"  class ='hidden infobox'>
             <h1 class="infohead">Events</h1>
             <h2 class="infoname">TicketMaster</h2>
-            <button type="button" id="button-4">v/ʌ</button>
+            <button type="button" id="button-4" class="buttonborder">'More Info'</button>
             <ul id="results-list-4" class="lists">
             </ul>
         </section>
