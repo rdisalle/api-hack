@@ -219,16 +219,16 @@ function getResultsWiki(searchPlace) {
     
 //used to fetch from Wiki API using URL created
     fetch(urlWiki)
-        .then(response => {
+    .then(response => {
         if (response.ok) {
-            return response.json();
-        }
-        throw new Error(response.statusText);
-        })
-        .then(responseJson => displayResultsWiki(responseJson))
-        .catch(err => {
-        $('#js-error-message').text(`Something went wrong: ${err.message}`);
-        });
+        return response.json();
+    }
+    throw new Error(response.statusText);
+    })
+    .then(responseJson => displayResultsWiki(responseJson))
+    .catch(err => {
+    $('#js-error-message').text(`Something went wrong: ${err.message}`);
+    });
 }
 //display results
 function displayResultsWiki(responseJson) {
