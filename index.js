@@ -269,7 +269,7 @@ function watchForm() {
         showClickBoxes();
         hideLists();
         hideFooter();
-    }); 
+    });  
 }
 
 //used to run watchForm function upon page load
