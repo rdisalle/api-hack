@@ -1,13 +1,13 @@
-City Info...
+<h1>City Info...</h1>
 
-https://rdisalle.github.io/city-info/
+<p>https://rdisalle.github.io/city-info/</p>
 
-The user in my app will simply input a city and state code in the United States and submit. Upon submission they will be navigated to a box for each section of the site. They can click each box to navigate to that section and see the information provided from the various API's (Wiki Media, TicketMaster, NYTImes, Weatherbit).
+<p>The user in my app will simply input a city and state code in the United States and submit. Upon submission they will be navigated to a box for each section of the site. They can click each box to navigate to that section and see the information provided from the various API's (Wiki Media, TicketMaster, NYTImes, Weatherbit).</p>
 
-Technologies used: HTML/CSS/JavaScript/jQuery
+<p>Technologies used: HTML/CSS/JavaScript/jQuery</p>
 
 
-![Mobile Photo 1](Shttps://github.com/rdisalle/city-info/blob/master/Screen%20Shot%202020-06-08%20at%205.55.35%20PM.png)
+![Mobile Photo 1](https://github.com/rdisalle/city-info/blob/master/Screen%20Shot%202020-06-08%20at%205.55.35%20PM.png)
 
 ![Mobile Photo 2](https://github.com/rdisalle/city-info/blob/master/Screen%20Shot%202020-06-08%20at%206.30.59%20PM.png)
 
